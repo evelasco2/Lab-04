@@ -25,21 +25,35 @@
 			<label>Email Address: <input type="text" name="email_field"></label>
 		</div>
 		<div>
-			<p>Gender:</p>
+			<p>Gender:
 			<label>Male:<input type="radio" name="gender_field" value="Male"></label>
 			<label>Female:<input type="radio" name="gender_field" value="Female"></label>
+			</p>
 		</div>
 		<div>
-			<p>Age:</p>
+			<p>Age:
 			<select name="age_field">
-				<option value="under 18">under 18</option>
+				<div>
+					<option value="under 18">under 18</option>
+				</div>
 				<option value="18 - 24">18 - 24</option>
-				<option value="25 - 34">25 - 34</option>
-				<option value="35 - 44">35 - 44</option>
-				<option value="45 - 54">45 - 54</option>
-				<option value="55 - 64">55 - 64</option>
-				<option value="65 and over">65 and over</option>
+				<div>
+					<option value="25 - 34">25 - 34</option>
+				</div>
+				<div>
+					<option value="35 - 44">35 - 44</option>
+				</div>
+				<div>
+					<option value="45 - 54">45 - 54</option>
+				</div>
+				<div>
+					<option value="55 - 64">55 - 64</option>
+				</div>
+				<div>
+					<option value="65 and over">65 and over</option>
+				</div>
 			</select>
+			</p>
 		</div>
 	</fieldset>
 	<div>
@@ -47,7 +61,7 @@
 	<fieldset>
 		<legend>My Availability</legend>
 		<div>
-			<p>Days Available:
+			<p>Days Available:</p>
 			<label>Sunday<input type="checkbox" name="available_field[]" value="Sunday"></label>
 			<label>Monday<input type="checkbox" name="available_field[]" value="Monday"></label>
 			<label>Tuesday<input type="checkbox" name="available_field[]" value="Tuesday"></label>
@@ -55,7 +69,6 @@
 			<label>Thursday<input type="checkbox" name="available_field[]" value="Thursday"></label>
 			<label>Friday<input type="checkbox" name="available_field[]" value="Friday"></label>
 			<label>Saturday<input type="checkbox" name="available_field[]" value="Saturday"></label>
-			</p>
 		</div>
 		<div>
 			<label>Any Comments?<textarea cols="30" rows="10" name="comments_field"></textarea></label>
